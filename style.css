@@ -1,0 +1,78 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --carnellian: #B31B1B;
+}
+
+
+html {
+    font-size=10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero Section */
+
+#hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+
+#hero h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+}
+
+#hero h2 {
+    display: block;
+    font-size: 2rem;
+    position: relative;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0rem;
+}
+
+#hero .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid var(--carnellian);
+}
+
+#hero .cta:hover {
+    color: white;
+    background-color: var(--carnellian);
+}
+
+*/
+/* End Hero Section */
