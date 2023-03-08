@@ -1,0 +1,50 @@
+/* contact Section */
+
+#contact .contact {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    height: fit-content;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* #contact .contact-top p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    letter-spacing: 0.05rem;
+} */
+
+#contact .contact-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 1.5em;
+    padding-bottom: 4em;
+}
+
+#contact .contact-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px solid #A2998B;
+    border-radius: 0px;
+}
+
+
+
+/* #contact p {
+    font-size: 0.9em;
+}
+
+#contact p {
+    font-size: 0.9em;
+} */

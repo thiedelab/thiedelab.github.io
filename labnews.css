@@ -1,0 +1,49 @@
+/* labnews Section */
+
+#labnews .labnews {
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    height: fit-content;
+}
+
+/* #labnews .labnews-top p {
+    font-size: 1.4rem;
+    margin-top: 5px;
+    letter-spacing: 0.05rem;
+} */
+
+#labnews .labnews-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#labnews .labnews-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 5px solid #A2998B;
+    border-radius: 0px;
+    min-width: 100%;
+    font-size: 1.5em
+}
+
+#labnews .labnews-item-header {
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+}
+
+#labnews h2 {
+    font-size: 2.0rem;
+}

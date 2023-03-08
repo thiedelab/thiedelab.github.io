@@ -1,0 +1,104 @@
+/* Biographies Section */
+/* #biosection {} */
+
+
+#biosection .biosection {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* #biosection .section-title {
+    font-size: 3rem;
+    color: block;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+} */
+
+/* #biosection .section-title span {
+    color: var(--carnellian)
+} */
+
+/*
+#biosection .bios {
+    flex-wrap: wrap;
+    color: red;
+    font: 100 24px/100px sans-serif;
+    height: 150px;
+    width: 897px;
+    text-align: center;
+}
+
+
+#biosection .bios div {
+    height: 50%;
+    width: 300px;
+} */
+
+#biosection .single_bio {
+    flex-wrap: wrap;
+}
+
+
+#biosection .bios {
+    /* font: 100 24px/100px sans-serif; */
+    /* height: 150px; */
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#biosection .bios div {
+    height: auto;
+    /* width: 300px; */
+    width: 300px;
+}
+
+#biosection .singlebio {
+    /* background: orangered; */
+    margin: 50px;
+}
+
+#biosection .headshotdiv {
+    margin: 0px;
+    padding: 0px;
+    min-width: auto;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#biosection .headshots {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#biosection h3 {
+    font-size: 1.4rem;
+}
+
+#biosection h4 {
+    font-weight: normal;
+    font-size: 1.0em;
+    margin: .5em;
+    font-style: italic;
+}
+
+#biosection p {
+    text-align: left;
+    font-size: 0.9em;
+    margin-top: 0px;
+    letter-spacing: 0.05rem;
+}
+
+#biosection .container {
+    width: 100%;
+}
+
+/* End Biographies Section */

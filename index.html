@@ -6,24 +6,218 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="labnews.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="bios.css">
+    <link rel="stylesheet" href="contact.css">
     <title>The Thiede Lab</title>
 </head>
 
 <body>
+    <!-- Navbar -->
+    <!-- <section id="nav-bar">
+        <div class="nav-bar container">
+        </div>
+    </section> -->
+
+
+    <!-- <ul class="topnav">
+        <li><a href="#hero" data-after="Home">Home</a></li>
+        <li><a href="#labnews" data-after="labnews">labnews</a></li>
+    </ul> -->
+
+    <ul class="topnav">
+        <!-- <li><a class="active" href="#hero">Home</a></li> -->
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#aboutsection">About</a></li>
+        <li><a href="#labnews">News</a></li>
+        <li><a href="#biosection">People</a></li>
+        <li class="right"><a href="#contact">Contact</a></li>
+    </ul>
+
+
     <!-- Hero Section-->
     <section id="hero">
         <div class="hero container">
+            <!-- <div class="hero title"> -->
             <div>
-                <h1> The Thiede Lab</h1>
-                <h2> Coming soon..</h2>
+                <!-- <h1 style="margin-top: 6rem;">The</h1> -->
+                <h1>The Thiede Lab</h1>
+                <h1><span>@</span> Cornell</h1>
+                <!-- <h1>The</h1>
+                <h1>Thiede</h1>
+                <h1>Lab</h1> -->
+                <!-- <h2> Coming soon..</h2>
                 <a href="https://ehthiede.github.io/" type="button" class="cta">
                     Erik's Personal Webpage
-                </a>
+                </a> -->
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- About Us Section -->
+    <section id="aboutsection">
+        <div class="aboutsection container">
+            <div class="aboutsection-main">
+                <h1 class="section-title">
+                    <span>A</span>bout the <span>L</span>ab
+                </h1>
+                <p>
+                    Proteins are fundamental to the molecular machinery of life: they are nature's freight trains,
+                    construction cranes, and chemical factories.
+                    But the basic principles of this machinery is poorly understood.
+                    By combining devolping new algorithms that combine
+                    machine learning, molecular simulation, and chemical physics,
+                    we seek to unpack fundamental protein biochemistry
+                    and help develop new therapeutics.
+                </p>
+                <div class="value-statement">
+                    <h2 class="section-subtitle">
+                        <!-- <span>L</span>ab <span>V</span>alues -->
+                        Lab Values
+                    </h2>
+                    <ul>
+                        <!-- <li><a class="active" href="#hero">Home</a></li> -->
+                        <li class="value-list-item">
+                            <span class="value-highlight">We are curious.</span>
+                            Doing innovative science requires seeking
+                            out the unknown. We are
+                            always looking for new influences and ways of thinking.
+                        </li>
+                        <li class="value-list-item">
+                            <span class="value-highlight">We are open.</span> Science is a team sport. To help out
+                            teammates, we take pains to share
+                            our science freely amongst the scientific community and with the world.
+                        </li>
+                        <li>
+                            <span class="value-highlight">We are a little stupid.</span> Science is about learning, not
+                            knowing. We are happy to ask
+                            the "dumb" questions and show that we don't understand everything.
+                        </li>
+                        <li>
+                            <span class="value-highlight">We are caring.</span> Doing good science requires delving deep
+                            into the unknown: an
+                            experience both exciting, and terrifying. On our journey, we celebrate each other's
+                            achievements and support each other through setbacks.
+                        </li>
+                        <li>
+                            <span class="value-highlight">We are inclusive.</span> We actively strive to make science a
+                            place where everyone
+                            thrives, no matter their background and identity. We fight against oppression of any kind,
+                            including but not limited to sexism, classism, racism, homophobia, transphobia, ableism and
+                            xenophobia. Although we may not complete this work within our lifetimes, we refuse to desist
+                            from it.
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- End Service Section -->
-</body>
+    <!-- End About Us Section -->
 
-</html>
+    <!-- labnews Section -->
+    <section id="labnews">
+        <div class="labnews container">
+            <div class="labnews-main">
+                <h1 class="section-title">
+                    <span>L</span>ab <span>N</span>ews
+                </h1>
+                <div class="labnews-item">
+                    <!-- <div class="icon">
+                        <img src="https://img.icons8.com/ios-glyphs/60/null/protein.png" />
+                    </div> -->
+                    <h2 class="labnews-item-header">
+                        March 7, 2023
+                    </h2>
+                    <p>
+                        The new website is live!
+                        We expect the quality and visual aesthetic to improve rapidly as Erik teaches
+                        himself HTML5/CSS.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End labnews Section -->
+
+    <!-- Bios Section -->
+
+    <section id="biosection">
+        <div class="biosection container">
+            <h1 class="section-title">
+                <span>P</span>eople
+            </h1>
+            <div class="bios">
+                <div class="singlebio">
+                    <div class="headshotdiv">
+                        <img src="img/newer_headshot.png" alt="Trulli" class="headshots">
+                    </div>
+                    <h3>Erik Henning Thiede</h3>
+                    <h4>Principal Investigator</h4>
+                    <p> Erik received his PhD from the University of Chicago working with Profs. Aaron Dinner and
+                        Jonathan Weare. He then did a postdoc at the Flatiron Institute CCM,
+                        working with Prof. Risi Kondor, Dr. Pilar Cossio, and Dr. Sonya Hanson.
+                        He believes strongly that, to misquote Friedrich Nietzsche, "The P.I. is something which
+                        should be overcome."
+                    </p>
+                </div>
+                <div class="singlebio">
+                    <div class="headshotdiv">
+                        <img src="img/happy-robot-head.png" alt="Trulli" class="headshots">
+                    </div>
+                    <h3>This could be you!</h3>
+                    <h4>Prospective Lab Member</h4>
+                    <p>We are looking for new undergraduate, graduate, and post-doctoral researchers!
+                        Feel free to contact Erik if you are interested.
+                        We particularly encourage applicants coming from under-represented backgrounds
+                        or atraditional career paths to apply.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="bios">
+            <div class="single_bio">
+                <div>
+                    Person 1
+                </div>
+            </div>
+            <div class="single_bio">
+                <div>
+                    Person 1
+                </div>
+            </div>
+            <div class="single_bio">
+                <div>
+                    Person 1
+                </div>
+            </div>
+            <div class="single_bio">
+                <div>
+                    Person 1
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- End Projects Section -->
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div class="contact-main">
+                <h1 class="section-title">
+                    Contact
+                </h1>
+                <p>
+                    Correspondance can be addressed to
+                    <a href="mailto:ehthiede@flatironinstitute.org">ehthiede[at]flatironinstitute.org</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+</body>
