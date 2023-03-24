@@ -2,7 +2,7 @@
 
 #aboutsection .aboutsection {
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     color: black;
     height: fit-content;
@@ -50,7 +50,8 @@
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    /* width: 90%; */
+    width: 100%;
     justify-content: center;
 }
 

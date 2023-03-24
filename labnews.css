@@ -3,7 +3,7 @@
 #labnews .labnews {
     flex-direction: column;
     max-width: 1200px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     color: black;
     height: fit-content;
@@ -46,4 +46,24 @@
 
 #labnews h2 {
     font-size: 2.0rem;
+}
+
+#labnews .publication-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 0px solid #A2998B;
+    border-radius: 0px;
+    min-width: 100%;
+    font-size: 1.5em
+}
+
+#labnews .publication-item-header {
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
 }
