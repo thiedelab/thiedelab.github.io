@@ -3,7 +3,7 @@
 #labnews .labnews {
     flex-direction: column;
     max-width: 1200px;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     color: black;
     height: fit-content;

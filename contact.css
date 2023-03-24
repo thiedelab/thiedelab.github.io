@@ -40,6 +40,13 @@
 }
 
 
+#contact .contact-info {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+}
 
 /* #contact p {
     font-size: 0.9em;

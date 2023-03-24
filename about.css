@@ -38,10 +38,19 @@
     border-radius: 0px;
 }
 
+#aboutsection .sample-statement {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
 #aboutsection .value-statement {
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
     justify-content: center;
 }
 
