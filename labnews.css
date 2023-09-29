@@ -36,7 +36,7 @@
     border: 5px solid #A2998B;
     border-radius: 0px;
     min-width: 100%;
-    font-size: 1.5em
+    font-size: 1.2em
 }
 
 #labnews .labnews-item-header {
@@ -45,7 +45,7 @@
 }
 
 #labnews h2 {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
 }
 
 #labnews .publication-item {
@@ -60,7 +60,7 @@
     border: 0px solid #A2998B;
     border-radius: 0px;
     min-width: 100%;
-    font-size: 1.5em
+    font-size: 1.2em
 }
 
 #labnews .publication-item-header {
